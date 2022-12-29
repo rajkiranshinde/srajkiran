@@ -10,7 +10,7 @@ dockerrajkiran"
   stages {
     stage('Checkout') {
       steps {
-        git credentialsId: '777a7344-89b9-4515-9830-3bd6e9a66158', url: ''
+        git credentialsId: '777a7344-89b9-4515-9830-3bd6e9a66158', url: 'https://github.com/rajkiranshinde/srajkiran.git'
       }
     }
     stage('Docker Build') {
